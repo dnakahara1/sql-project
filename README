@@ -1,0 +1,49 @@
+Project Name: Dentist Evaluation Based on Zip Code 
+
+Project Objective: Find out if zip code wealth affects the quality of dentists that are available and networks that are available.
+
+What problem are you solving? 
+  I am solving the question / problem of whether or not there are disparities in quality, and availability of networks in zip codes that are high 
+  income and low income. And through answering this question, I am able to make recommendations if action should be taken to accomadate any issues
+  or differences. 
+  
+How are you solving this problem?
+  I am solving this problem by writing queries in SQL for analysis. Then, I am able to recommend solutions based off of my findings. 
+  
+Job Description: 
+  Responsible for the design, development, and delivery of analytic solutions. 
+  Extract, manipulate, and analyze large datasets with SQL or other dB tools.
+  Translate business needs and results into analytic questions through SQL and BI tools to support data-driven and strategic decision-making.
+  Establishes and maintains excellent knowledge of data warehouse database design, data definitions, system capabilities, query languages, and data integrity.
+  Develops in-depth understanding of operational processes, business rules, and key metrics for all supported business units.
+  Analyzes operational results and trends, utilizing data to identify process improvement opportunities.
+  Proposes solutions for, and participates in the implementation of, identified improvement opportunities.
+  Uses MS PowerPoint, MS Excel, Tableau, SSRS and other tools to develop data visualizations and translate analytic findings in order to provide meaningful insight into program performance.
+  Develop and assist with coding logic in SQL, Excel, and other tools.
+  Performs modeling of information sources and business flows.
+  Completes ad-hoc analysis as needed.
+  
+1 paragraph explaining the company, title, and job description for the job posting you selected
+  The job title that I chose was Business Info Developer Consultant at Anthem Inc. Anthem Inc. or Anthem is a provider of domestic health insurance 
+  that is a for-profit company. It is managed by Blue Cross Blue Shield which is why many know Anthem Blue Cross, or Anthem Blue Cross Blue Shield. 
+  This job requires the individual to be able to understand SQL and be able to manipulate, extract, and provide analytics from data sets. 
+  
+Briefly explain how the project is related to the job posting: 
+  This project is related to the job posting because, similarly to the job, my project required me to look at a data set; understand what the data set was
+  populated with; and lastly, write SQL queries to pull analytics and provide insight behind the data. These insights then allow me to provide a recommendation. 
+  
+Data
+  Source: https://www.deltadentalins.com/find-a-dentist/directory-results/?network=2ppo,2premier,2deltacare,DCSUBIND,DCSUBMED,DCSUBCON&location=90021&distance=5&specialty=General%20Dentist&sort_field=relevance&sort_order=asc&lat=34.0309258&long=-118.2380432&page=1
+  Characteristics: There were some incomplete cells in the DentalQual column and Yelp Rating column; I would assume this data is up to date and accurate considering my source.
+  Overall, most of the data was useful, however I was not able to incorporate the distance from the origin zip code into a query which made it not relevant. 
+  
+Notebooks: 
+  DATA COLLECTION: This notebook was used to web scrape data from Delta Dental's 'Find a Dentist' search tool. 
+    Link: https://github.com/dnakahara1/sql-project/blob/main/data_collection.ipynb
+  ANALYSIS: This notebook was used to write SQL queries to explore the data, and then answer questions that I thought of to provide analytics on the data set. 
+    Link: https://github.com/dnakahara1/sql-project/blob/main/sql_analysis.ipynb
+
+Future Improvements:
+  If I had more time I would want to pull more zip codes and have more data to look at. I believe that the more data that I can have, the more impactful
+  and meaningful my output will be. Another improvement on this project that I would make if I had more time would be creating images of my output such as
+  my race demographic percentages in order to easily visualize the differences. 
